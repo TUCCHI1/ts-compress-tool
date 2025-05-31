@@ -1,7 +1,8 @@
 {
-  "name": "ts-compress-tool",
+  "name": "ts-comment-remover",
   "version": "1.0.0",
-  "description": "TypeScript file compression tool with functional programming approach",
+  "private": false,
+  "description": "TypeScript file compression tool that removes comments and unnecessary whitespace using AST",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -38,25 +39,26 @@
   },
   "keywords": [
     "typescript",
+    "comment-remover",
     "compression",
     "minify",
-    "functional",
     "ast",
     "cli",
     "tool",
     "comment-removal",
     "code-compression",
-    "typescript-tool"
+    "typescript-tool",
+    "whitespace-removal"
   ],
-  "author": "Your Name <your.email@example.com>",
+  "author": "TUCCHI1 <yasuhiro.dokizono@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/yourusername/ts-compress-tool#readme",
+  "homepage": "https://github.com/TUCCHI1/ts-compress-tool#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/ts-compress-tool.git"
+    "url": "git+https://github.com/TUCCHI1/ts-compress-tool.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/ts-compress-tool/issues"
+    "url": "https://github.com/TUCCHI1/ts-compress-tool/issues"
   },
   "dependencies": {
     "chalk": "^5.3.0",
