@@ -1,4 +1,4 @@
-# ts-compress-tool
+# ts-comment-remover
 
 TypeScript ファイルからコメントと不要な空白を削除する圧縮ツール
 
@@ -23,5 +23,5 @@ TypeScript ファイルからコメントと不要な空白を削除する圧縮
 ### グローバルインストール（推奨）
 
 ```bash
-npm install -g ts-compress-tool
+npm install -g ts-comment-remover
 ```
